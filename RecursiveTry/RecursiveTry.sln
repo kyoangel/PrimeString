@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveTry", "RecursiveTry.csproj", "{73876828-3860-4072-A55E-571C220433DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveTryTests", "..\RecursiveTryTests\RecursiveTryTests.csproj", "{02544E60-5FE2-494B-9EB4-868BC6DDCFFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73876828-3860-4072-A55E-571C220433DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73876828-3860-4072-A55E-571C220433DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73876828-3860-4072-A55E-571C220433DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73876828-3860-4072-A55E-571C220433DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02544E60-5FE2-494B-9EB4-868BC6DDCFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02544E60-5FE2-494B-9EB4-868BC6DDCFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02544E60-5FE2-494B-9EB4-868BC6DDCFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02544E60-5FE2-494B-9EB4-868BC6DDCFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
