@@ -10,16 +10,13 @@ namespace RecursiveTry
     {
         public static void Main(string[] args)
         {
+            string testStr = "";
 
-            if (args.Length != 1 || string.IsNullOrWhiteSpace(args[0]))
-            {
-                Console.WriteLine("please input \"one\" string to verify");
-                Console.ReadLine();
-                return;
-            }
+            if (args.Length !=0)
+                testStr = args[0];
 
-            Console.WriteLine("your input: \"" + args[0] + "\"");
-            Console.WriteLine(PrimeString(args[0])? "Is a Prime String":"Is \"NOT\" a Prime String");
+            Console.WriteLine("your input: \"" + testStr + "\"");
+            Console.WriteLine(PrimeString(testStr) ? "Is a Prime String":"Is \"NOT\" a Prime String");
 
             Console.ReadLine();
 
