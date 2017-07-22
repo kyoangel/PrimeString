@@ -1,0 +1,2 @@
+# PrimeString
+mentor training homework
